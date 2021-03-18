@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root{
+    --primary-color:#084ba2;
+    --secondary-color: #4154f1;
+    --paragraph-color: #8f8f8f;
+    --white-color: #fcf8f8f5;
+    --primary-light-color: #4f83c7;
+    --secondary-light-color: #f6f9ff;
+    --primary-background-color: rgb(172,192,218);
+}
+
+body,* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    list-style-type:none;
+}
+.logo{
+    font-size:36px;
+    font-weight: bold;
+    background-color: var(--primary-color);
+    background-image: linear-gradient(90deg, #0f3b74 10%, var(--primary-light-color) 10%, var(--primary-light-color) 100%);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    animation: go-back 0.5s ease-out forwards;
+}
+.logo:hover{
+    animation: change-color 0.5s ease-in forwards;
+}
+@keyframes go-back{
+    0% {
+        background-size: 1050%;
+    }
+    40% {
+        background-size: 1050%;
+    }
+    100% {
+        background-size: 100%;
+    }
+}
+@keyframes change-color{
+    0% {
+        background-size: 100%;
+    }
+    80% {
+        background-size: 1050%;
+    }
+    100% {
+        background-size: 1050%;
+    }
+}
+
+
+#navbarSupportedContent{
+    justify-content: flex-end;
+}
+.custom-navbar{
+    display: flex;
+    justify-content: space-between;
+    padding:8px 24px;
+    background-color: var(--primary-background-color);
+}
+
+.custom-menu{
+    display: flex;
+    justify-content:space-evenly;
+    flex:1;
+}
+
+.custom-menu>li>a.nav-link{
+    color: var(--primary-color);
+    position: relative;
+    padding:0 !important;
+}
+.custom-menu>li:hover>a.nav-link::before{
+    width:65%;
+}
+.custom-menu>li>a.nav-link::before{
+    content:"";
+    background-color:var(--primary-color);
+    width:0;
+    height:3px;
+    position:absolute;
+    bottom:-5px;
+    left:0;
+    transition: width 0.5s;
+}
+.search-form{
+    display: flex;
+    justify-content: flex-end;
+    flex-basis: 25%;
+}
+input{
+    outline:none;
+}
+input[type=search]{
+    background: #c1d5ee;
+    border: solid 1px var(--primary-light-color);
+    padding: 5px;
+	width: 70px;
+    border-radius: 10px;
+    transition:all 0.5s;
+}
+input[type=search]::placeholder{
+    color:var(--primary-color)
+}
+input[type=search]:focus {
+	width: 130px;
+	background-color:#d9e5f5;
+    border-color: var(--primary-color);
+    box-shadow: none;
+}
+
+.search-button{
+    background: url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;;
+    padding:0;
+    width:30px;
+}
+
+#main{
+    height:500px;
+    background-color: var(--primary-background-color);
+}
+
+.custom-row{
+    display: flex;
+    align-items: baseline;
+}
+#success,.errors{
+    margin-left: 20px;
+}
+#success{
+    color:rgb(103, 182, 103);
+}
+.errors{
+    color:#a72828;
+}
+h2{
+    color:var(--primary-color);
+}
+p{
+    color:var(--primary-light-color);
+}

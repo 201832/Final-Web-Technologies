@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root{
+    --primary-color:#084ba2;
+    --secondary-color: #4154f1;
+    --paragraph-color: #8f8f8f;
+    --white-color: #fcf8f8f5;
+    --primary-light-color: #4f83c7;
+    --secondary-light-color: #f6f9ff;
+    --primary-background-color: rgb(172,192,218);
+}
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    list-style-type:none;
+}
+.container{
+    margin-top: 20px;
+}
+.choose{
+    color:var(--primary-light-color);
+}
+.slider-wrapper{
+    margin:20px;
+}
+#lower-value{
+    margin:20px 0;
+}
+.product {
+    display: flex;
+    flex-direction: column;
+}
+.vehicle_img{
+    width:100%;
+    min-height:240px;
+    height:100%;
+}
+h4{
+    color:var(--primary-color);
+}
+h1{
+    color:var(--primary-color);
+}
+.brand{
+    color:var(--primary-color);
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.model{
+    color:var(--primary-light-color);
+    text-transform: capitalize;
+}
+.price{
+    text-align: center;
+    color:var(--secondary-color);
+    font-weight: bold;
+    margin-top: 10px;
+}

@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root{
+    --primary-color:#084ba2;
+    --secondary-color: #4154f1;
+    --paragraph-color: #8f8f8f;
+    --white-color: #fcf8f8f5;
+    --primary-light-color: #4f83c7;
+    --secondary-light-color: #f6f9ff;
+    --primary-background-color: rgb(172,192,218);
+}
+
+body {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    list-style-type:none;
+    height:100vh;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    justify-content: center;
+    width: 100%;
+    min-height: 100%;
+    padding: 20px;
+
+}
+.custom-container{
+    width:auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+h1{
+    font-size:36px;
+    font-weight: bold;
+    color:var(--primary-color);
+}
+#form-container{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    position: relative;
+}
+input{
+    outline:none;
+}
+input[type=text], input[type=password], input[type=email]{
+    background: #c1d5ee;
+    border: solid 1px var(--primary-light-color);
+    padding: 5px;
+    border-radius: 10px;
+    transition:all 0.5s;
+    margin: 5px;
+    text-decoration: none;
+    padding: 15px 32px;
+    text-align: center;
+}
+input[type=text]::placeholder, input[type=password]::placeholder, input[type=email]::placeholder{
+    color:var(--primary-color)
+}
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus {
+	background-color:#e1e8f1;
+    border-color: var(--primary-color);
+    box-shadow: none;
+}
+input[type=submit]{
+    width:50%;
+    margin:10px auto;
+    font-size:16px;
+    font-weight: bold;
+    background-color: var(--primary-light-color);
+    border-radius: 5px 5px 5px 5px;
+    border: 2px solid var(--primary-light-color);
+    padding:10px 0;
+    color:var(--white-color);
+}
+input[type=submit]:hover{
+    background-color: #a8c1e0 ;
+    border: 2px solid #a8c1e0;
+    color:rgb(25, 67, 114);
+}
+.errors{
+    display: none;
+}

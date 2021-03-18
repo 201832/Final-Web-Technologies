@@ -1,0 +1,182 @@
+{
+  "users": [
+    {
+      "id": "977284",
+      "email": "aruzhan12@asd.a",
+      "fname": "Aruzhan12123",
+      "sname": "Aru",
+      "password": "123",
+      "gender": "female",
+      "CarFavourites[]": [
+        "1",
+        "2"
+      ],
+      "BikeFavourites[]": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "id": "608898",
+      "email": "kusainovaam@gmail.com",
+      "fname": "123",
+      "sname": "Kt",
+      "password": "123",
+      "gender": "female",
+      "CarFavourites[]": [
+        "3",
+        "2"
+      ]
+    },
+    {
+      "id": "396805",
+      "email": "kusainovaam@gmail.com",
+      "fname": "aa",
+      "sname": "am",
+      "password": "123",
+      "gender": "female"
+    }
+  ],
+  "cars": [
+    {
+      "id": 1,
+      "brand": "Mercedes",
+      "model": "A-Class",
+      "price": 100000,
+      "currency": "dollars",
+      "fuel": "diesel",
+      "path": "./images/cars/mers.jpg"
+    },
+    {
+      "id": 2,
+      "brand": "Tesla",
+      "model": "S",
+      "price": 80000,
+      "currency": "dollars",
+      "fuel": "electricity",
+      "path": "./images/cars/tesla.jpg"
+    },
+    {
+      "id": 3,
+      "brand": "BMW",
+      "model": "X1",
+      "price": 35000,
+      "currency": "dollars",
+      "fuel": "diesel",
+      "path": "./images/cars/bmw.jpg"
+    },
+    {
+      "id": 4,
+      "brand": "Audi",
+      "model": "A4",
+      "price": 50000,
+      "currency": "dollars",
+      "fuel": "diesel",
+      "path": "./images/cars/audi.jpeg"
+    },
+    {
+      "id": 5,
+      "brand": "Chevrolet",
+      "model": "A-Class",
+      "price": 90000,
+      "currency": "dollars",
+      "fuel": "diesel",
+      "path": "./images/cars/cherolet.jpg"
+    }
+  ],
+  "bikes": [
+    {
+      "id": 1,
+      "brand": "BMW",
+      "model": "Motorrad",
+      "price": 12000,
+      "currency": "dollars",
+      "fuel": "diesel",
+      "path": "./images/bikes/bike.jpeg"
+    },
+    {
+      "id": 2,
+      "brand": "Aprilia",
+      "model": "SXR 160",
+      "price": 15000,
+      "currency": "dollars",
+      "fuel": "diesel",
+      "path": "./images/bikes/bike.jpeg"
+    },
+    {
+      "id": 3,
+      "brand": "Ducati",
+      "model": "Meccanica",
+      "price": 11000,
+      "currency": "dollars",
+      "fuel": "diesel",
+      "path": "./images/bikes/bike.jpeg"
+    },
+    {
+      "id": 4,
+      "brand": "Harley-Davidson",
+      "model": "Classic",
+      "price": 25000,
+      "currency": "dollars",
+      "fuel": "diesel",
+      "path": "./images/bikes/bike.jpeg"
+    },
+    {
+      "id": 5,
+      "brand": "Honda",
+      "model": "Grom",
+      "price": 12500,
+      "currency": "dollars",
+      "fuel": "diesel",
+      "path": "./images/bikes/bike.jpeg"
+    }
+  ],
+  "planes": [
+    {
+      "id": 1,
+      "brand": "Plane",
+      "model": "Boeing",
+      "price": 120000,
+      "currency": "dollars",
+      "fuel": "diesel",
+      "path": "./images/planes/plane.jpg"
+    },
+    {
+      "id": 1,
+      "brand": "Plane",
+      "model": "Boeing",
+      "price": 120000,
+      "currency": "dollars",
+      "fuel": "diesel",
+      "path": "./images/planes/plane.jpg"
+    },
+    {
+      "id": 1,
+      "brand": "Plane",
+      "model": "Boeing",
+      "price": 120000,
+      "currency": "dollars",
+      "fuel": "diesel",
+      "path": "./images/planes/plane.jpg"
+    },
+    {
+      "id": 1,
+      "brand": "Plane",
+      "model": "Boeing",
+      "price": 120000,
+      "currency": "dollars",
+      "fuel": "diesel",
+      "path": "./images/planes/plane.jpg"
+    },
+    {
+      "id": 1,
+      "brand": "Plane",
+      "model": "Boeing",
+      "price": 120000,
+      "currency": "dollars",
+      "fuel": "diesel",
+      "path": "./images/planes/plane.jpg"
+    }
+  ]
+}
